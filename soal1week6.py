@@ -1,4 +1,5 @@
-print("Program Mencetak Deret Harmonik")
+print("\033[36m ..::Program Menghitung Derek Harmonik::..")
+print("\033[32m ..::Kelompok 8::..")
 i = int(input("Masukkan Inoutan untuk deret harmonik: "))
 j= 0
 jabar = ""

@@ -1,0 +1,19 @@
+k = []
+for i in range(10):
+    print(f'Masukkan nilai x{i+1} = ', end=' ')
+    r = (input())
+    if r == "1" or r == "2" or r == "3" or r == "4" or r == "5" or r== "6" or r == "7" or r == "8" or r == "9" or r == "0" :
+        s= int(r)
+        k.append(s)
+    elif r == "k":
+        k = 10
+        k.append(k)
+    else :
+        sys.exit("INVALID!!!!")
+
+isbn = (k[0]*10 + k[1]*9 + k[2]*8 + k[3]*7 + k[4]*6 + k[5]*5 + k[6]*4+ k[7]*3 + k[8]*2 + k[9]*1)
+
+if isbn % 11 == 0 :
+    print (" ISBN-10 Valid")
+else :
+    print ("ISBN-10 Invalid")
